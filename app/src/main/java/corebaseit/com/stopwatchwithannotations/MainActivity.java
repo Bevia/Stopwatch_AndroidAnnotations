@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @ViewById(R.id.toolbar)
     Toolbar toolbar;
 
-    Fragment fragment;
+     private Fragment fragment;
 
     @AfterViews
     void init() {
